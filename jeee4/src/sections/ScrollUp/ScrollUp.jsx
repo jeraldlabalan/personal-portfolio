@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import styles from './ScrollUpStyles.module.css';
+import { Link } from 'react-scroll';
 
 function ScrollUp({ setActiveNav }) {
   useEffect(() => {
@@ -21,17 +22,19 @@ function ScrollUp({ setActiveNav }) {
   }, []);
 
   const handleClick = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-    setActiveNav('#home');
+    setActiveNav('#home');  // Keep this to update the active navigation
   };
 
   return (
-    <a onClick={handleClick} className={styles.scrollup}>
+    <Link
+      to="home"
+      smooth={true}
+      duration={500}
+      onClick={handleClick} 
+      className={styles.scrollup}
+    >
       <i className={`${styles.scrollup__icon} uil uil-arrow-up`}></i>
-    </a>
+    </Link>
   );
 }
 

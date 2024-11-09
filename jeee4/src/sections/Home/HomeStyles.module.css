@@ -39,7 +39,7 @@
 
 .home__subtitle {
   position: relative;
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   padding-left: 5.4rem;
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
@@ -62,15 +62,15 @@
 }
 
 .home__img {
-  background: url(../../assets/photo-gray.png);
+  background: url(../../assets/home-profile-final.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
-  box-shadow: inset 0 0 0 9px rgb(255 177 0 / 100%);
+  box-shadow: inset 0 0 0 9px rgb(255 177 0 / 5%);
   order: 1;
   justify-self: center;
-  width: 300px;
-  height: 300px;
+  width: 375px;
+  height: 375px;
   animation: profile__animate 6s ease-in-out infinite 1s;
 }
 
@@ -90,7 +90,16 @@
 
 .home__scroll {
   margin-left: 9.25rem;
+  cursor: pointer;
 }
+
+.home__scroll_button {
+  display: flex;                /* Aligns items horizontally */
+  align-items: center;          /* Vertically aligns the items in the center */
+  justify-content: flex-start;      /* Horizontally centers the items */
+  column-gap: 10px;              /* Adds space between the items */
+}
+
 
 .wheel {
   animation: scroll 2s ease infinite;
@@ -135,7 +144,13 @@
     padding-left: 3.75rem;
     margin-bottom: var(--mb-1);
   }
-  .home__description::before {
+
+  .home__subtitle::before {
+    width: 42px;
+    top: 0.8rem;
+  }
+  
+  .home__description {
     max-width: initial;
     margin-bottom: var(--mb-2-5);
   }
@@ -143,7 +158,7 @@
   .home__img {
     width: 250px;
     height: 250px;
-    box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 9px rgb(255 177 0 / 5%);
   }
 
   .home__scroll {
@@ -177,7 +192,7 @@
   }
 
   .home__img {
-    box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 9px rgb(255 177 0 / 5%);
     width: 200px;
     height: 200px;
   }

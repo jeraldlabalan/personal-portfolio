@@ -6,6 +6,7 @@ import Footer from './sections/Footer/Footer';
 import Header from './sections/Header/Header';
 import About from './sections/About/About';
 import Qualification from './sections/Qualification/Qualification';
+import Work from './sections/Work/Work';
 import ScrollDown from './sections/Home/ScrollDown';
 import ScrollUp from './sections/ScrollUp/ScrollUp';
 
@@ -17,9 +18,9 @@ function App() {
       <main className='main'>
         <Home />
         <About />
-        <ScrollDown />
         <Skills />
         <Qualification />
+        <Work />
         <Contact />
       </main>
 
