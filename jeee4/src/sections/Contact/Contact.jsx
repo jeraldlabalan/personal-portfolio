@@ -8,13 +8,22 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs
       .sendForm('service_uui4ags', 'template_2hl7q7w', form.current, {
         publicKey: 'u80Juq16UvhUzD40-',
       })
-      e.target.reset()
+      .then(
+        (result) => {
+          alert('Email sent successfully!'); // Alert for confirmation
+          e.target.reset(); // Reset form fields
+        },
+        (error) => {
+          alert('Failed to send email. Please try again.'); // Error alert
+        }
+      );
   };
+  
   return (
     <section className={`${styles.contact} section`} id='contact'>
       <h2 className="section__title">
