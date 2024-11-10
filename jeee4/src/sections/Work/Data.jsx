@@ -3,20 +3,23 @@ import Work2 from '../../assets/orderizz-preview.png';
 import Work3 from '../../assets/cvsu-website-preview.png';
 import Work4 from '../../assets/codev-preview.png';
 import Work5 from '../../assets/student-records-preview.png';
+import orderizz from '../../assets/OrderManagementSystem.pdf';
+import studentRecords from '../../assets/Cavite State University - Bacoor City Campus Student Records System.pdf';
+import barangayProfiling from '../../assets/Barangay-Profiling-System.pdf';
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
     title: "Molino VI Profiling",
-    demoLink: '/src/assets/Barangay-Profiling-System.pdf', // Adjusted path
+    demoLink: barangayProfiling, 
     category: "web",
   },
   {
     id: 2,
     image: Work2,
     title: "Orderizz",
-    demoLink: '/src/assets/OrderManagementSystem.pdf', // Adjusted path
+    demoLink: orderizz,
     category: "app",
   },
   {
@@ -37,7 +40,7 @@ export const projectsData = [
     id: 5,
     image: Work5,
     title: "CvSU Student Records",
-    demoLink: '/src/assets/Cavite State University - Bacoor City Campus Student Records System.pdf', // Adjusted path
+    demoLink: studentRecords, // Adjusted path
     category: "web",
   },
 ];
