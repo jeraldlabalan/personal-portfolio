@@ -9,15 +9,16 @@ import Qualification from './sections/Qualification/Qualification';
 import Work from './sections/Work/Work';
 import { Helmet } from 'react-helmet'
 import ScrollUp from './sections/ScrollUp/ScrollUp';
+import HeroImg from './assets/profile.jpg';
 
 function App() {
   return (
     <>
   <Helmet>
-    <title>Je</title>
+    <title>Je | Portfolio</title>
     <meta charSet="utf-8" />
     <meta name="description" content="Jerald Labalan's portfolio showcasing web development skills, projects, and expertise in React and front-end technologies." />
-    <meta name="keywords" content="Jerald Labalan, web developer, portfolio, React developer, front-end projects" />
+    <meta name="keywords" content="jerald, labalan, jeraldlabalan, jerald labalan, web developer, portfolio, React developer, front-end projects" />
     <meta name="author" content="Jerald Labalan" />
     <link rel="icon" href="https://jeraldlabalanportfolio.vercel.app/favicon.ico" />
 
@@ -26,7 +27,7 @@ function App() {
     <meta property="og:description" content="Discover Jerald Labalan's skills in React, web development, and project highlights." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://jeraldlabalanportfolio.vercel.app/" />
-    <meta property="og:image" content="https://jeraldlabalanportfolio.vercel.app/profile.jpg" />
+    <meta property="og:image" content={HeroImg} />
     <meta property="og:site_name" content="Jerald Labalan Portfolio" />
     <meta property="og:locale" content="en_US" />
 
@@ -34,7 +35,7 @@ function App() {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Jerald Labalan - Web Developer Portfolio" />
     <meta name="twitter:description" content="Discover Jerald Labalan's skills in React, web development, and project highlights." />
-    <meta name="twitter:image" content="https://jeraldlabalanportfolio.vercel.app/profile.jpg" />
+    <meta name="twitter:image" content={HeroImg} />
   </Helmet>
 
       <Header />
