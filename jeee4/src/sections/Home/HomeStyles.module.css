@@ -127,6 +127,23 @@
   color: var(--title-color);
 }
 
+
+/* Keyframes to create a waving animation */
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-15deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(15deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Apply the animation to the SVG icon */
+svg .button__icon {
+  animation: wave 1.5s ease-in-out infinite;
+  transform-origin: 70% 70%; /* Adjust this origin to fit the icon’s position */
+}
+
+
 @media screen and (max-width: 992px) {
 
   /*====== FOR LARGE DEVICES =====*/

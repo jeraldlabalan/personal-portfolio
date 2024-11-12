@@ -47,7 +47,7 @@ function Contact() {
               <h3 className={styles.contact__card_title}>Email</h3>
               <span className={styles.contact__card_data}>jeraldlabalan26@gmail.com</span>
 
-              <a href="mailto:jeraldlabalan26@gmail.com" className={styles.contact__button}>
+              <a href="mailto:jeraldlabalan26@gmail.com" className={styles.contact__button} target='_blank'>
                 Write me
                 <i className={`${styles.contact__button_icon} 
                 bx bx-right-arrow-alt`}></i>
@@ -56,16 +56,18 @@ function Contact() {
 
             <div className={styles.contact__card}>
             <i className={`${styles.contact__card_icon} 
-              bx bxl-whatsapp`}></i>
+              bx bxl-whatsapp`}
+              ></i>
 
               <h3 className={styles.contact__card_title}>Whatsapp</h3>
               <span className={styles.contact__card_data}>991-228-7455</span>
 
               <a href="https://wa.me/639912287455
-" className={styles.contact__button}>
+" className={styles.contact__button} target='_blank'>
                 Write me
                 <i className={`${styles.contact__button_icon} 
-                bx bx-right-arrow-alt`}></i>
+                bx bx-right-arrow-alt`}
+                target='_blank'></i>
               </a>
             </div>
 
@@ -76,7 +78,9 @@ function Contact() {
               <h3 className={styles.contact__card_title}>Messenger</h3>
               <span className={styles.contact__card_data}>jerald.labalan.5</span>
 
-              <a href="https://www.messenger.com/t/8228720097208764/" className={styles.contact__button}>
+              <a href="https://www.messenger.com/t/8228720097208764/" 
+                  className={styles.contact__button} 
+                  target='_blank'>
                 Write me
                 <i className={`${styles.contact__button_icon} 
                 bx bx-right-arrow-alt`}></i>
@@ -101,6 +105,7 @@ function Contact() {
               name="name" 
               className={styles.contact__form_input}
               placeholder='Type your name...' 
+              required
               />
             </div>
 
@@ -115,6 +120,7 @@ function Contact() {
               name="email" 
               className={styles.contact__form_input}
               placeholder='Type your email...' 
+              required
               />
             </div>
 
@@ -128,6 +134,7 @@ function Contact() {
               rows="10"
               className={styles.contact__form_input}
               placeholder='Write your project...'
+              required
               >
               </textarea>
             </div>
