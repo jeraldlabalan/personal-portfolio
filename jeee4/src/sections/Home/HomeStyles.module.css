@@ -27,7 +27,7 @@
 }
 
 .home__title {
-  font-size: var(--big-font-size);
+  font-size: 2.60rem;
   margin-bottom: var(--mb-0-25);
 }
 
@@ -188,6 +188,9 @@ svg .button__icon {
  @media screen and (max-width: 768px) {
   
   /*====== FOR MEDIUM DEVICES =====*/
+  .home__title {
+    font-size: 2.50rem;
+  }
 
   .home__container {
     display: flex;
@@ -222,7 +225,10 @@ svg .button__icon {
 
 
  @media screen and (max-width: 350px) {
-  
+  .home__title {
+    font-size: 1.75rem;
+  }
+
   .home__img {
     width: 180px;
     height: 180px;

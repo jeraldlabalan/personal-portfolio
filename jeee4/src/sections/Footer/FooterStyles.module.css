@@ -17,6 +17,7 @@
 .footer__title {
   text-align: center;
   margin-bottom: var(--mb-2);
+  font-size: 1.75rem;
 }
 
 .footer__link {
@@ -60,6 +61,7 @@
 .footer__social_link:hover {
   background-color: #ffb100;
   color: var(--title-color);
+  
 }
 
 .footer__copy {
@@ -68,6 +70,16 @@
   color: var(--title-color);
   text-align: center;
   font-size: var(--smaller-font-size);
+}
+
+.highlight_color_yellow {
+  color: #ffb100;
+  font-size: 1.75rem;
+}
+
+.highlight_color_green {
+  color: #002e06;
+  font-size: 1.75rem;
 }
 
 
@@ -80,21 +92,75 @@
     border-radius: 0.25rem;
     font-size: 1rem;
   }
+
+  .footer__title {
+    font-size: 1.50rem;
+  }
+
+  .highlight_color {
+    color: #ffb100;
+    font-size: 1.50rem;
+  }
+
+  .highlight_color_green {
+    color: #002e06;
+    font-size: 1.50rem;
+  }
  }
+
+
 
 
  @media screen and (max-width: 768px) {
   
+  .footer__title {
+    font-size: 1.50rem;
+  }
+
+  .highlight_color_yellow{
+    color: #ffb100;
+    font-size: 1.50rem;
+  }
+
+  .highlight_color_green {
+    color: #002e06;
+    font-size: 1.50rem;
+  }
 
  }
 
  @media screen and (max-width: 576px) {
+  .footer__title {
+    font-size: 1.50rem;
+  }
+
+  .highlight_color_yellow {
+    color: #ffb100;
+    font-size: 1.50rem;
+  }
+
+  .highlight_color_green {
+    color: #002e06;
+    font-size: 1.50rem;
+  }
 
  }
 
 
  @media screen and (max-width: 350px) {
+  .footer__title {
+    font-size: 1.25rem;
+  }
 
+  .highlight_color_yellow {
+    color: #ffb100;
+    font-size: 1.25rem;
+  }
+
+  .highlight_color_green {
+    color: #002e06;
+    font-size: 1.25rem;
+  }
  }
 
 

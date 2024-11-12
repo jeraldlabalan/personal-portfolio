@@ -9,13 +9,10 @@ function Qualification() {
   };
 
   return (
-    <section className={`${styles.qualification} section`}>
+    <section className={`${styles.qualification} section`} id='education'>
       <h2 className='section__title'>
-        Educational Background
+        Education
       </h2>
-      <span className='section__subtitle'>
-        Schools I have gone to
-      </span>
 
       <div className={`${styles.qualification__container} container`}>
         <div className={styles.qualification__tabs}>
@@ -27,7 +24,6 @@ function Qualification() {
             <i className=
             {`${styles.qualification__icon}
               uil uil-graduation-cap`}></i>
-            Education
           </div>
         </div>
         <div className={styles.qualication__sections}>

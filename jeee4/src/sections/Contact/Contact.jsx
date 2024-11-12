@@ -29,9 +29,6 @@ function Contact() {
       <h2 className="section__title">
         Get in touch
       </h2>
-      <span className={`section__subtitle`}>
-        Contact Me
-      </span>
 
       <div className={`${styles.contact__container} container grid`}>
         <div className={styles.contact__content}>
@@ -78,7 +75,7 @@ function Contact() {
               <h3 className={styles.contact__card_title}>Messenger</h3>
               <span className={styles.contact__card_data}>jerald.labalan.5</span>
 
-              <a href="https://www.messenger.com/t/8228720097208764/" 
+              <a href="https://m.me/jerald.labalan.5" 
                   className={styles.contact__button} 
                   target='_blank'>
                 Write me

@@ -131,13 +131,9 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
-}
-
-.section__subtitle {
-  display: block;
-  font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
+
 
 .section__title,
 .section__subtitle {

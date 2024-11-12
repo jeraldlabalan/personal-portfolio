@@ -62,7 +62,7 @@ function Data() {
         Web Developer
       </h3>
       <p className={styles.home__description}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolorem unde fuga eligendi fugit ea accusamus veniam possimus iusto aspernatur. Fuga at aut maxime deserunt tempore asperiores hic doloribus optio.
+      Hi, I’m Jerald Labalan — an aspiring professional web developer. I am passionate about building intuitive and accessible websites in hopes of shaping the future of web applications. Welcome to my portfolio, where code meets creativity!
       </p>
 
       <a href="#contact" className="button button__flex">

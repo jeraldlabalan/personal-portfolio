@@ -6,17 +6,16 @@ function Information() {
     <div className={`${styles.about__info} grid`}>
       <div className={styles.about__box}>
         <h3 className={styles.about__title}>
-          <i className="bx bx-award about__icon"></i>
           Experience
         </h3>
         <span className={styles.about__subtitle}>
-          2 Years Working
+          2 Years Coding Practice
         </span>
       </div>
 
       <div className={styles.about__box}>
         <h3 className={styles.about__title}>
-          <i className="bx bx-briefcase-alt about__icon"></i>
+    
           Completed
         </h3>
         <span className={styles.about__subtitle}>
@@ -26,11 +25,11 @@ function Information() {
 
       <div className={styles.about__box}>
         <h3 className={styles.about__title}>
-          <i className='bx bx-support about__icon'></i>
-          Support
+  
+          Other Hobbies
         </h3>
         <span className={styles.about__subtitle}>
-          Online 24/7
+          Piano
         </span>
       </div>
 

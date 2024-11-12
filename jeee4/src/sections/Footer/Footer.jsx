@@ -6,7 +6,7 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={`${styles.footer__container} container`}>
         <h1 className={styles.footer__title}>
-          Jerald Labalan
+          Building a better web for <span className={styles.highlight_color_green}>tomorrow</span>, starting with <span className={styles.highlight_color_yellow}>today</span>’s code.
         </h1>
 
         <ul className={styles.footer__list}>
@@ -14,14 +14,11 @@ function Footer() {
             <a href="#about" className={styles.footer__link}>
               About
             </a>
-            <a href="#portfolio" className={styles.footer__link}>
-              Projects
-            </a>
             <a href="#skills" className={styles.footer__link}>
               Skills
             </a>
-            <a href="#qualification" className={styles.footer__link}>
-              Qualifications
+            <a href="#projects" className={styles.footer__link}>
+              Projects
             </a>
           </li>
         </ul>
