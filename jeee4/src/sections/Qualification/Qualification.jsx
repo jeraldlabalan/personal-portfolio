@@ -43,7 +43,7 @@ function Qualification() {
                 </span>
                 <div className={styles.qualification__calender}>
                   <i className='uil uil-calendar-alt'></i>
-                  Present - 2022
+                   2022 — Present
                 </div> 
               </div>
               <div>
@@ -68,7 +68,7 @@ function Qualification() {
                 </span>
                 <div className={styles.qualification__calender}>
                   <i className='uil uil-calendar-alt'></i>
-                  2022 - 2020
+                  2020 - 2022
                 </div>
               </div>
             </div>  
@@ -83,7 +83,7 @@ function Qualification() {
                 </span>
                 <div className={styles.qualification__calender}>
                   <i className='uil uil-calendar-alt'></i>
-                  2020 - 2016
+                  2016 - 2020
                 </div>
               </div>
 
@@ -111,7 +111,7 @@ function Qualification() {
                 </span>
                 <div className={styles.qualification__calender}>
                   <i className='uil uil-calendar-alt'></i>
-                  2016 - 2010
+                  2010 - 2016
                 </div>
               </div>
             </div>
