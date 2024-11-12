@@ -15,7 +15,7 @@ function App() {
   return (
     <>
   <Helmet>
-    <title>Je | Portfolio</title>
+    <title>Jerald | Portfolio</title>
     <meta charSet="utf-8" />
     <meta name="description" content="Jerald Labalan's portfolio showcasing web development skills, projects, and expertise in React and front-end technologies." />
     <meta name="keywords" content="jerald, labalan, jeraldlabalan, jerald labalan, web developer, portfolio, React developer, front-end projects" />
