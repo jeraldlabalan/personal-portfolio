@@ -31,11 +31,6 @@
   margin-bottom: var(--mb-0-25);
 }
 
-.home__hand {
-  width: 38px;
-  height: 38px;
-  margin-left: 0.4rem;
-}
 
 .home__subtitle {
   position: relative;
@@ -152,10 +147,6 @@ svg .button__icon {
     column-gap: 1.25rem;
   }
 
-  .home__hand {
-    width: 26px;
-    height: 26px;
-  }
 
   .home__subtitle {
     padding-left: 3.75rem;
