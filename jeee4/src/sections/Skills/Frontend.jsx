@@ -10,14 +10,17 @@ function Frontend() {
       </h3>
 
       <div className={styles.skills__box}>
+        
         <div className={styles.skills__group}>
 
           <div className={styles.skills__data}>
             <i className='bx bx-badge-check'></i>
+
             <div>
               <h3 className={styles.skills__name}>HTML</h3>
               <span className={styles.skills__level}>Basic</span>
             </div>
+
           </div>
 
           <div className={styles.skills__data}>
@@ -64,6 +67,7 @@ function Frontend() {
             </div>
           </div>
         </div>
+
       </div>
     </div>
   )

@@ -12,7 +12,10 @@ function About() {
       </h2>
 
       <div className={`${styles.about__container} container grid`}>
+        
+        <div className={styles.img_container}>
         <img src={AboutImg} className={styles.about__img} alt="about image" />
+        </div>
 
         <div className={styles.about__data}>
          <Information />
@@ -21,7 +24,8 @@ function About() {
          I’m Jerald, a computer science student based in Manila, Philippines. With a strong foundation in front-end development and now enhancing my skills in React JS. I’m dedicated to crafting user-centered and user-friendly applications which will enhance digital experience. I decided to pursue my journey in tech because I got in love with creating website the moment I learned about it from scratch back in grade school. When I’m not coding, you can find me in my room expanding my horizon through learning other web frameworks or sitting on a chair playing piano.
          </p>
 
-         <a download="" href={cv} className={`button button__flex`}>
+         <div className={styles.download_button_container}>
+         <a download="" href={cv} className={`button button__flex  ${styles.download_button}` }>
           Download CV
           <svg
                 className="button__icon"
@@ -49,6 +53,8 @@ function About() {
                 ></path>
               </svg>
          </a>
+         </div>
+
         </div>
       </div>
     </section>

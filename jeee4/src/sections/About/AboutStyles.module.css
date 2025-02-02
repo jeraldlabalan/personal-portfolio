@@ -4,6 +4,16 @@
   column-gap: 4rem;
 }
 
+
+.img_container {
+  background-color: #1e1e1e;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  border-radius: 1.5rem;
+}
+
 .about__img {
   width: 350px;
   height: 350px;
@@ -46,9 +56,19 @@
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
   margin-bottom: var(--mb-2-5);
+  text-align: justify;
+  width: 100%;
+  
 }
+
+.download_button_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media screen and (max-width: 992px) {
 

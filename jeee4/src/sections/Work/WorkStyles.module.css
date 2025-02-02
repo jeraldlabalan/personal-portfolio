@@ -35,9 +35,11 @@
 }
 
 .work__img {
-  width: 295px;
+  width: 275px;
+  height: 200px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
+  object-fit: cover;
 }
 
 .work__title{

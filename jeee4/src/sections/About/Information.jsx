@@ -9,7 +9,7 @@ function Information() {
           Experience
         </h3>
         <span className={styles.about__subtitle}>
-          2 Years Coding Practice
+          3 Years Coding Practice
         </span>
       </div>
 

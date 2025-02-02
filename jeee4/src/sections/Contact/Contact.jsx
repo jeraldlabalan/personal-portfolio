@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styles from './ContactStyles.module.css'
+import { toast, ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
 
@@ -15,17 +17,20 @@ function Contact() {
       })
       .then(
         (result) => {
-          alert('Email sent successfully!'); // Alert for confirmation
+          toast.success('Email sent successfully!'); // Alert for confirmation
           e.target.reset(); // Reset form fields
         },
         (error) => {
-          alert('Failed to send email. Please try again.'); // Error alert
+          toast.error('Failed to send email. Please try again.'); // Error alert
         }
       );
   };
   
   return (
     <section className={`${styles.contact} section`} id='contact'>
+
+      <ToastContainer position="top-center" autoClose={3000} hideProgressBar newestOnTop closeOnClick pauseOnFocusLoss draggable pauseOnHover />
+
       <h2 className="section__title">
         Get in touch
       </h2>

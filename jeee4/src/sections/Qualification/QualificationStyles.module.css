@@ -73,6 +73,10 @@
 
 .qualification__calender {
   font-size: var(--small-font-size);
+
+  i {
+    margin: 0 5px;
+  }
 }
 
 
