@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from './AboutStyles.module.css'
 import AboutImg from '../../assets/about-photo.jpg'
-import cv from '../../assets/jerald-labalan-cv.pdf'
+import resume from '../../assets/jerald-labalan-resume.pdf'
 import Information from './Information'
+
 
 function About() {
   return (
@@ -25,8 +26,8 @@ function About() {
          </p>
 
          <div className={styles.download_button_container}>
-         <a download="" href={cv} className={`button button__flex  ${styles.download_button}` }>
-          Download CV
+         <a download="" href={resume} className={`button button__flex  ${styles.download_button}` }>
+          Download Resume
           <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
