@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './AboutStyles.module.css'
 import AboutImg from '../../assets/about-photo.jpg'
-import resume from '../../assets/jerald-labalan-resume.pdf'
+import resume from '../../assets/jeraldlabalan-resume.pdf'
 import Information from './Information'
 
 
