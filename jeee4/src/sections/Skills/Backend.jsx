@@ -9,6 +9,7 @@ function Backend() {
         Backend Development
       </h3>
       <div className={styles.skills__box}>
+
         <div className={styles.skills__group}>
           <div className={styles.skills__data}>
             <i className='bx bx-badge-check'></i>
@@ -36,7 +37,6 @@ function Backend() {
         </div>
 
         <div className={styles.skills__group}>
-
           <div className={styles.skills__data}>
             <i className='bx bx-badge-check'></i>
             <div>
@@ -62,6 +62,36 @@ function Backend() {
           </div>
 
         </div>
+
+        
+        <div className={styles.skills__group}>
+          <div className={styles.skills__data}>
+            <i className='bx bx-badge-check'></i>
+            <div>
+              <h3 className={styles.skills__name}>
+               Java
+              </h3>
+              <span className={styles.skills__level}>
+               Basic
+              </span>
+            </div>
+          </div>
+
+          <div className={styles.skills__data}>
+            <i className='bx bx-badge-check'></i>
+            <div>
+              <h3 className={styles.skills__name}>
+               C#
+              </h3>
+              <span className={styles.skills__level}>
+               Basic
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+
       </div>
     </div>
   )

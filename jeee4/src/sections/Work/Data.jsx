@@ -9,7 +9,7 @@ import barangayProfiling from '../../assets/Barangay-Profiling-System.pdf';
 import work6 from '../../assets/enrollment-system-landing-page.png';
 import enrollmentSystem from '../../assets/Cavite State University - Enrollment System.pdf';
 import work7 from '../../assets/finding-needmo-landing-page.png'
-
+import work8 from '../../assets/kix.png'; 
 
 
 export const projectsData = [
@@ -62,6 +62,13 @@ export const projectsData = [
     demoLink: 'https://drive.google.com/drive/u/0/folders/1VyrYHTOFeAZHVws4cd7rH-y12PnqriNJ', // Adjusted path
     category: "web",
   },
+  {
+    id: 8,
+    image: work8,
+    title: "Kix",
+    demoLink: 'https://kix-ten.vercel.app/',
+    category: "web",
+  }
 ];
 
 export const projectsNav = [

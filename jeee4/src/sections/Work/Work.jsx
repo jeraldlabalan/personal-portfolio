@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './WorkStyles.module.css'
 import Works from './Works'
 

@@ -23,18 +23,23 @@
   display: flex;
   justify-content: center;
   columns: 2.5rem;
+  flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 .skills__group {
   display: grid;
-  align-items: flex-start;
+  align-items: center;
   row-gap: 1rem;
+  width: 100% ;
+  justify-content: center;
 }
 
 .skills__data {
   display: flex;
   column-gap: 0.5rem;
+  align-items: flex-start;
 }
 
 
