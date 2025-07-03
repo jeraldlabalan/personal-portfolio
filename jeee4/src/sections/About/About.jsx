@@ -1,6 +1,6 @@
 import styles from './AboutStyles.module.css'
 import AboutImg from '../../assets/about-photo.jpg'
-import resume from '../../assets/JERALD-LABALAN-CV.pdf'
+import resume from '../../assets/jerald-labalan-cv.pdf'
 import Information from './Information'
 
 
