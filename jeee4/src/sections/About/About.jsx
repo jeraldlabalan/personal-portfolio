@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './AboutStyles.module.css'
 import AboutImg from '../../assets/about-photo.jpg'
 import resume from '../../assets/JERALD-LABALAN-CV.pdf'
