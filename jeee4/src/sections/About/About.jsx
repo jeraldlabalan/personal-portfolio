@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './AboutStyles.module.css'
 import AboutImg from '../../assets/about-photo.jpg'
-import resume from '../../assets/jeraldlabalan-resume.pdf'
+import resume from '../../assets/JERALD-LABALAN-CV.pdf'
 import Information from './Information'
 
 
@@ -22,7 +22,7 @@ function About() {
          <Information />
 
          <p className={styles.about__description}>
-         I’m Jerald, a computer science student based in Manila, Philippines. With a strong foundation in front-end development and now enhancing my skills in React JS. I’m dedicated to crafting user-centered and user-friendly applications which will enhance digital experience. I decided to pursue my journey in tech because I got in love with creating website the moment I learned about it from scratch back in grade school. When I’m not coding, you can find me in my room expanding my horizon through learning other web frameworks or sitting on a chair playing piano.
+         Computer Science student passionate about web and app development. Skilled in programming and project management, with hands-on experience from multiple school and personal projects. Eager to apply and grow through a dynamic internship opportunity. Known for being a fast learner, team player, and highly motivated to contribute to real-world tech solutions.
          </p>
 
          <div className={styles.download_button_container}>
